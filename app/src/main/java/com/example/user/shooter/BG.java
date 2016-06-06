@@ -68,3 +68,4 @@ public class BG extends Thread {
 
 }
 
+//хехех
