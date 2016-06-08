@@ -9,8 +9,8 @@ import android.graphics.BitmapFactory;
  */
 public class NLO {
     private Bitmap picture;
-    private float x;
-    private float y;
+    private float x = 375;
+    private float y = 1000;
 
     NLO(Resources resources) {
         picture = BitmapFactory.decodeResource(resources, R.drawable.nlo);

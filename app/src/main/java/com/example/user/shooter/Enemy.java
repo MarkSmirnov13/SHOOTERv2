@@ -1,13 +1,13 @@
 package com.example.user.shooter;
 
 /**
- * Created by user on 6/6/2016.
+ * Created by user on 6/7/2016.
  */
-public class Bums {
+public class Enemy {
     private float x;
     private float y;
-    private static float w=5.0f;
-    private static float h=30.0f;
+    private static float w=50.0f;
+    private static float h=50.0f;
 
     public void setX(float x) {
         this.x = x;
@@ -33,3 +33,4 @@ public class Bums {
         return h;
     }
 }
+
